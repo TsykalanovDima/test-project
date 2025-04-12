@@ -28,7 +28,4 @@ jobs:
         pip install pytest
         pytest
 
-    - name: Run tests with nose
-      run: |
-        pip install nose
-        nosetests tests/
+ 
